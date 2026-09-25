@@ -1,0 +1,16 @@
+{
+  "source": "../local_v1.tex:2620-2642, tab:participant",
+  "evidence": "legacy_manuscript_reference",
+  "original_implementation_available": false,
+  "threshold": 1024,
+  "columns": ["2-of-4", "3-of-7", "4-of-10"],
+  "units": "milliseconds, medians",
+  "issuance": [11.128, 12.813, 14.441],
+  "share_verification": [7.676, 7.683, 7.675],
+  "update_application": [9.530, 10.315, 11.105],
+  "offline_catchup_without_pop": [40.947, 53.514, 62.496],
+  "complaint_generation": [0.265, 0.269, 0.268],
+  "complaint_verification": [0.330, 0.332, 0.332],
+  "repeats": {"issuance": 50, "share_verification": 50, "others": 10},
+  "comparison_policy": "Different unavailable suite/backend and omitted PoP: no direct speedup or error-percentage claim against the new implementation."
+}

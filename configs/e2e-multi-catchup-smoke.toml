@@ -1,0 +1,13 @@
+name = "multi-participant-catchup-smoke"
+repeats = 1
+committees = [[4, 2, 1]]
+populations = [64, 64, 80, 80]
+thresholds = [48, 48, 60, 60]
+offline_participants = 16
+participant_corruption_budget = 1
+outgoing_recipient_budget = 16
+catchup_concurrency = 16
+fault_scenarios = false
+dealer_omission = false
+timeout_ms = 240000
+generation_round_seconds = 120

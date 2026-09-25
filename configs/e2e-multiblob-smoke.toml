@@ -1,0 +1,10 @@
+# Integration check for bundles exceeding 126945 bytes. Not the paper workload.
+name = "multiblob-lifecycle-validation"
+repeats = 1
+committees = [[4, 2, 1]]
+thresholds = [336, 336, 352, 352]
+populations = [340, 340, 356, 356]
+fault_scenarios = false
+dealer_omission = false
+timeout_ms = 240000
+generation_round_seconds = 120

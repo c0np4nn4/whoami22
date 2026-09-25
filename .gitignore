@@ -1,0 +1,29 @@
+# Local tools and editor settings
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+
+# Rebuildable artifacts and caches
+/target/
+/contract-out/
+/contract-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Experiment outputs can contain host and filesystem metadata
+/results/
+/outputs/
+/runs/
+/artifacts/
+*.log

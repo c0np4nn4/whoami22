@@ -1,0 +1,8 @@
+name = "e2e-anvil"
+repeats = 5
+committees = [[4, 2, 1], [7, 3, 2]]
+thresholds = [16, 32, 64, 32]
+populations = [24, 48, 80, 112]
+fault_scenarios = false
+dealer_omission = false
+timeout_ms = 180000

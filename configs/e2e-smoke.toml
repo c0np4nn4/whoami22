@@ -1,0 +1,8 @@
+name = "e2e-smoke"
+repeats = 1
+committees = [[4, 2, 1]]
+thresholds = [8, 12, 16, 12]
+populations = [12, 20, 28, 36]
+fault_scenarios = false
+dealer_omission = false
+timeout_ms = 120000

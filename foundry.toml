@@ -1,0 +1,10 @@
+[profile.default]
+src = "contracts"
+out = "contract-out"
+cache_path = "contract-cache"
+solc_version = "0.8.30"
+evm_version = "prague"
+optimizer = true
+# Optimize for deployment size: nested module creation must fit EIP-3860.
+optimizer_runs = 100
+via_ir = true

@@ -1,0 +1,12 @@
+name = "stress"
+seed = 20260922
+repeats = 100
+warmup = 5
+distributed_repeats = 10
+evm_repeats = 10
+thresholds = [256, 1024]
+distributed_thresholds = [64, 256]
+evm_thresholds = [1024]
+populations = [256, 1024]
+concurrency = [1, 4, 8, 16]
+suites = ["core", "distributed", "evm", "research"]

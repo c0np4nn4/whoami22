@@ -1,0 +1,22 @@
+# Fresh lifecycles for the two configurations not completed in the failed run.
+name = "paper-normal-lifecycle"
+# Each triple is [n_D, k_D, f_D]. f_D is a protocol bound; no faults are injected.
+# Accounts scale with n_D. Large runs remain subject to gas, blob, timeout and host resource limits.
+# committees = [[4, 2, 1], [7, 3, 2]]
+committees = [[25, 9, 8], [49, 17, 16]]
+    [4, 2, 1],
+    [7, 3, 2],
+    [13, 5, 4],
+    [25, 9, 8],
+    [49, 17, 16],
+    # [97, 33, 32],
+    # [193, 65, 64],
+    # [385, 129, 128],
+]
+repeats = 1
+populations = [1024, 1024, 1280, 1280]
+thresholds = [128, 128, 128, 128]
+fault_scenarios = false
+dealer_omission = false
+timeout_ms = 240000
+generation_round_seconds = 120

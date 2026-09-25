@@ -1,0 +1,10 @@
+# Explicit fault validation only; run_paper_e2e.sh never runs this profile.
+name = "intentional-fault-validation"
+repeats = 1
+committees = [[4, 2, 1]]
+thresholds = [8, 12, 12, 8]
+populations = [12, 20, 28, 36]
+fault_scenarios = true
+timeout_ms = 120000
+generation_round_seconds = 5
+dealer_omission = true

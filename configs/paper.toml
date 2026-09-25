@@ -1,0 +1,12 @@
+name = "paper"
+seed = 31337
+repeats = 10
+warmup = 3
+distributed_repeats = 5
+evm_repeats = 3
+thresholds = [16, 64, 256, 1024]
+distributed_thresholds = [16, 64]
+evm_thresholds = [16, 64, 1024]
+populations = [1, 8, 64, 512, 2048]
+concurrency = [1, 8, 32]
+suites = ["core", "distributed", "evm", "research"]

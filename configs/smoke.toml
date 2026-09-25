@@ -1,0 +1,12 @@
+name = "smoke"
+seed = 20260921
+repeats = 2
+warmup = 1
+distributed_repeats = 1
+evm_repeats = 1
+thresholds = [8]
+distributed_thresholds = [8]
+evm_thresholds = [16]
+populations = [16]
+concurrency = [1, 4]
+suites = ["core", "distributed", "evm", "research"]
